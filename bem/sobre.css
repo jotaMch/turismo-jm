@@ -1,0 +1,145 @@
+.transport {
+    display: flex;
+    flex-direction: column;
+}
+
+.transpot-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 26px 0;
+}
+
+.transpot-item h4 {
+    font-size: 20px;
+}
+
+.transpot-item img {
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .container {
+        width: 90%;
+    }
+
+    header nav {
+        padding: 20px 6px;
+    }
+
+    .sobre-nos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sobre-nos img {
+        width: 100%;
+    }
+
+    .transpot-item {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0 0;
+    }
+
+    .transpot-item h4 {
+        text-align: center;
+        margin-top: 42px;
+    }
+
+    .melhores {
+        margin-top: 46px;
+    }
+
+    
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+    }
+
+    .card {
+        margin: 22px auto;
+    }
+
+    
+    #contato {
+        flex-direction: column;
+    }
+
+    .social {
+        margin-top: 46px;
+    }
+
+    .form__field {
+        width: 100%;
+    }
+
+    .contatos {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        width: 90%;
+    }
+
+    header nav {
+        padding: 20px 6px;
+    }
+
+    .transpot-item {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0 0;
+    }
+
+    .imagens {
+        grid-template-columns: 100%;
+        margin: 40px 0;
+    }
+
+    .transpot-item div {
+        margin: 20px 0 0;
+    }
+
+    .twu {
+        padding: 20px;
+        margin: 20px 0 30px;
+    }
+
+    .sobre-nos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sobre-nos img {
+        width: 100%;
+        margin-bottom: 46px;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .card {
+        margin: 22px auto;
+    }
+
+    #contato {
+        flex-direction: column;
+    }
+
+    .social {
+        margin-top: 46px;
+    }
+
+    .form__field {
+        width: 100%;
+    }
+
+    .contatos {
+        width: 100%;
+    }
+}
