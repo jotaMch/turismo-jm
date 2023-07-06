@@ -36,13 +36,13 @@
     position: relative;
     width: 11.875em;
     height: 16.5em;
-    box-shadow: 2px 0px 12px 4px #8de7fe3d;
+    box-shadow: 2px 0px 10px 4px #8de7fe3d;
     cursor: pointer;
     transition: all 120ms;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #fff;
+    background-image: linear-gradient(to top, #798899, #2b5e85, #1c1f24);
     padding: 0.5em;
     padding-bottom: 3.4em;
 }
