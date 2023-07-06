@@ -25,12 +25,12 @@ header ul {
     display: block;
     width: 20px;
     height: 3px;
-    background-color: #039be8;
+    background: linear-gradient(to right, #a8d7e3 20%, #039be8 100%);
     margin-block: 5px;
     position: relative;
     border-radius: 4px;
     transition: transform .5s;
-    opacity: .25;
+    opacity: .7;
 }
 
 .mobile {
