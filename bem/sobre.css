@@ -14,8 +14,6 @@
     font-size: 20px;
 }
 
-.transpot-item img {
-}
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .container {
@@ -141,5 +139,9 @@
 
     .contatos {
         width: 100%;
+    }
+
+    .imagens {
+        padding-bottom: 62px;
     }
 }

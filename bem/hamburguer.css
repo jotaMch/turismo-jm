@@ -1,69 +1,24 @@
 @media screen and (max-width: 767px) {
-    header ul {
-        display: none;
-        }
-    
-        .hamburguer {
-        display: block;
-        position: absolute;
-        top: 28%;
-        right: 4%;
-        background-image: linear-gradient(to bottom, #192732, #1d2329, #1c1f24);
-        border: none;
-        }
 
-        .flex {
-            display: flex;
-            align-items: center;
-        }
-
-        .imagens {
-            margin: 0 0 46px;
-        }
-}
-
-
-@media screen and (min-width: 768px) {
-        .menu {
-        display: block !important;
-        }
-        .hamburguer {
-        display: none;
-        }
-    }
-
-
-
-
-
-.menu {
+header ul {
     display: none;
 }
 
-.hamburguer.active + .menu {
-        display: block;
-}
-
-.mobile {
+.hamburguer {
     position: absolute;
-    top: 18%;
-    right: 2%;
-    background-color: #676d73;
-    padding: 120px 95px;
+    background-image: linear-gradient(to bottom, #192732, #1d2329);
+    top: 28%;
+    right: 4%;
+    border: none;
 }
 
-.li-menu {
-    position: absolute;
-    top: 0;
-    left: 0;
+.flex {
+    display: flex;
+    align-items: center;
 }
 
-.mobile li {
-    display: block;
-}
-
-.li-menu li {
-    font-family: 'Pragati Narrow', sans-serif;
+.imagens {
+    margin: 0 0 46px;
 }
 
 .line {
@@ -77,6 +32,47 @@
     transition: transform .5s;
     opacity: .25;
 }
+
+.mobile {
+    position: absolute;
+    top: 18%;
+    right: 2%;
+    padding: 120px 95px;
+    background-image: linear-gradient(to bottom, #192732, #1d2329, #1c1f24);
+}
+
+
+    .mobile li {
+    display: block;
+    font-family: 'Pragati Narrow', sans-serif;
+}
+
+/*________________________mobile ^ _________________________________________________-*/
+}
+
+
+
+.li-menu {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.hamburguer.active + .menu {
+    display: block;
+}
+
+
+.mobile {
+    display: none;
+}
+
+.mobile li {
+    display: block;
+    font-family: 'Pragati Narrow', sans-serif;
+}
+
 
 .hamburguer.active .line:nth-child(1) {
     transform: translateY(8px) rotate(-45deg);
