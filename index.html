@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="bem/main.css">
     <link rel="stylesheet" href="bem/cards.css">
     <link rel="stylesheet" href="bem/sobre.css">
+    <link rel="stylesheet" href="bem/hamburguer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
@@ -36,7 +37,54 @@
                     <img  src="./imagens/social/message-square.svg" alt="">
                 </li>
             </ul>
+            <ul class="mobile">
+                <div class="li-menu">
+                    <div class="flex">
+                        <li onclick="scrollToSection('sociais')">
+                            Contact
+                        </li>
+                    </div>
+
+                    <div class="flex">
+                        <li onclick="scrollToSection('sobre')">
+                            About
+                        </li>
+                    </div>
+
+                    <div class="flex">
+                        <li>
+                            Carrinho
+                        </li>
+                        <img src="./imagens/social/carrinho.svg" alt="">
+                        <span class="carrinho">0</span>
+                    </div>
+
+                    <div class="flex">
+                        <li onclick="scrollToSection('contato')">
+                        Message
+                        </li>
+                        <img src="./imagens/social/message-square.svg" alt="">
+                    </div>
+                    <div class="flex">
+                        <li onclick="scrollToSection('sociais')">
+                        E-mail
+                        </li>
+                        <img src="./imagens/social/email.svg" alt="">
+                    </div>
+                    <div class="flex">
+                        <li onclick="scrollToSection('sociais')">
+                        Phone
+                        </li>
+                        <img src="./imagens/social/phone-call.svg" alt="">
+                    </div>
+                </div>
+            </ul>
         </nav>
+        <button type="button" onclick="animar()" class="hamburguer" id="btn">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </button>
     </header>
     <div class="container">
         <section>
